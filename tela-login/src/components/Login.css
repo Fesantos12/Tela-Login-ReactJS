@@ -1,0 +1,101 @@
+.LoginContainer {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #F72585;
+    border-radius: 20px;
+    box-shadow: -1px 3px 13px 1px rgba(0,0,0,0.24);
+}
+
+.LoginContainer h1 {
+    margin-top: 80px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F72585;
+}
+
+.EmailSenha {
+    display: flex;
+    flex-direction: column;
+}
+
+#Email {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+#password {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+.RememberForgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.RememberForgot a {
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+.Button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #4CC9F0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Button:hover {
+    background-color: #480CA8;
+    color: #F72585;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+
+.ButtonFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.CriarConta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.CriarConta p {
+    color: white;
+    font-size: 13px;
+}
+
+.CriarConta button {
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F72585;
+    color: white;
+}
