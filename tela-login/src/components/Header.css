@@ -41,5 +41,28 @@
     color: #4CC9F0;
 }
 
+/* Responsividade */
 
+@media(max-width: 768px) {
+    .Header-Container {
+        height: 60px;
+    }
 
+    .Logo {
+        font-size: 18px;
+    }
+    
+    .HeaderUl a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 330px) {
+    .HeaderUl {
+        margin-left: -40px;
+    }
+
+    .Logo {
+        padding-left: 20px;
+    }
+}

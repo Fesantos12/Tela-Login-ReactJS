@@ -99,3 +99,117 @@
     background-color: #F72585;
     color: white;
 }
+
+/* Responsividade */
+
+@media(max-width: 1024px) {
+    .LoginContainer {
+        width: 30%;
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 768px) {
+    .LoginContainer {
+        width: 35%;
+        height: 350px;
+        margin-top: 90px;
+    }
+
+    .LoginContainer h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    #Email {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #password {
+        width: 60%;
+        padding: 5px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .RememberForgot a {
+        font-size: 10px;
+        color: white;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .Button {
+        padding: 8px 28px;
+        margin-top: 20px;
+    }
+    
+    .Button:hover {
+        padding: 8px 28px;
+        font-size: 14px;
+    }
+
+    .CriarConta {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 426px) {
+    .LoginContainer {
+        width: 50%;
+        height: 350px;
+    }
+
+    .RememberForgot a {
+        margin-left: 30px;
+    }
+    
+    .CriarConta {
+        margin-top: 30px;
+    }
+
+    .CriarConta p {
+        font-size: 10px;
+    }
+    
+    .CriarConta button {
+        padding: 5px 12px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 376px) {
+    .LoginContainer {
+        width: 65%;
+        height: 350px;
+    }
+
+    .RememberForgot a {
+        margin-left: 30px;
+    }
+    
+    .CriarConta {
+        margin-top: 30px;
+    }
+
+    .CriarConta p {
+        font-size: 10px;
+    }
+    
+    .CriarConta button {
+        padding: 5px 12px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}   

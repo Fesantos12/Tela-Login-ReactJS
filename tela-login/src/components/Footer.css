@@ -21,3 +21,42 @@
 .Insta a {
     margin-left: 5px;
 }
+
+/* Responsividade */
+
+@media(max-width: 1024px) {
+    .Container {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .Container {
+        margin-top: 110px;
+    }
+
+    .Container a {
+        font-size: 10px;
+    }
+
+    .Insta img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Insta a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 426px) {
+    .Container {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 376px) {
+    .Container {
+        margin-top: 80px;
+    }
+}
