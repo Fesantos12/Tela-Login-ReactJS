@@ -1,15 +1,15 @@
+import {BrowserRouter as Router, Swith, Route, Routes, Link} from 'react-router-dom'
+
 import './App.css'
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Login from './components/Login';
+import Index from './components/LoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Login/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+      </Routes>
+    </Router>
   );
 }
 
