@@ -12,7 +12,11 @@ const Login = () => {
       window.alert("Login efetuado com sucesso")
       window.alert(`Email: ${email}, Senha: ${password}`)
 
-      if (email || password == undefined) {
+      if (email && password == undefined) {
+        window.alert('Preencha todos os campos!')
+      } if (email == undefined) {
+        window.alert('Preencha todos os campos!')
+      } if (password == undefined) {
         window.alert('Preencha todos os campos!')
       }
     }
