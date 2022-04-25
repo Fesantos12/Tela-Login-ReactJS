@@ -10,7 +10,11 @@ const Login = () => {
       e.preventDefault()
       console.log(`Usuario: ${email} cadastrado com a senha ${password}`)
       window.alert("Login efetuado com sucesso")
-      window.alert(`Usuário: ${email}, Senha: ${password}`)
+      window.alert(`Email: ${email}, Senha: ${password}`)
+
+      if (email || password == undefined) {
+        window.alert('Preencha todos os campos!')
+      }
     }
     
     const [email, setEmail] = useState();
