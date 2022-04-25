@@ -9,6 +9,8 @@ const Login = () => {
     function cadastrarUsuario(e) {
       e.preventDefault()
       console.log(`Usuario: ${email} cadastrado com a senha ${password}`)
+      window.alert("Login efetuado com sucesso")
+      window.alert(`Usuário: ${email}, Senha: ${password}`)
     }
     
     const [email, setEmail] = useState();
@@ -16,6 +18,7 @@ const Login = () => {
 
     return (
         <>
+          <div className="banana">
           <div className="LoginContainer">
             <h1>Login</h1>
             <form action="">
@@ -54,6 +57,7 @@ const Login = () => {
                 </a>
               </div>
             </form>
+          </div>
           </div>
         </>
       );
